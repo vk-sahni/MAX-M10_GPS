@@ -1,0 +1,9 @@
+# KiCad local state and backups
+*.kicad_prl
+*.lck
+fp-info-cache
+*-backups/
+.history/
+
+# Local OS metadata
+.DS_Store

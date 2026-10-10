@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1723" height="961" viewBox="0 0 1723 961">
+  <image x="0" y="0" width="1723" height="961" href="Back_MAX-M10_GPS.png" xlink:href="Back_MAX-M10_GPS.png"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#ffca58"/>
+    </marker>
+    <style>
+      .leader { fill: none; stroke: #ffca58; stroke-width: 4; marker-end: url(#arrow); }
+      .box { fill: #14202b; fill-opacity: .94; stroke: #ffca58; stroke-width: 2; }
+      .label { fill: #ffffff; font: 600 21px sans-serif; }
+      .sub { fill: #d7e2ed; font: 16px sans-serif; }
+    </style>
+  </defs>
+  <g>
+    <path class="leader" d="M431 70 L849 225"/>
+    <rect class="box" x="24" y="28" width="405" height="74" rx="10"/>
+    <text class="label" x="44" y="58">J1 · SMA RF CONNECTOR</text>
+    <text class="sub" x="44" y="83">Through-board edge-mount footprint</text>
+  </g>
+  <g>
+    <path class="leader" d="M1230 372 L858 565"/>
+    <rect class="box" x="1228" y="328" width="472" height="78" rx="10"/>
+    <text class="label" x="1248" y="359">U1 · MAX-M10S LOCATION</text>
+    <text class="sub" x="1248" y="385">Receiver is mounted on the front side</text>
+  </g>
+  <g>
+    <path class="leader" d="M431 733 L918 728"/>
+    <rect class="box" x="22" y="688" width="410" height="78" rx="10"/>
+    <text class="label" x="42" y="719">H1 / H2 · MOUNTING PADS</text>
+    <text class="sub" x="42" y="745">2.2 mm plated mounting holes</text>
+  </g>
+  <g>
+    <path class="leader" d="M1230 680 L1073 536"/>
+    <rect class="box" x="1228" y="636" width="472" height="78" rx="10"/>
+    <text class="label" x="1248" y="667">BACK SIDE · COPPER / ROUTING</text>
+    <text class="sub" x="1248" y="693">Inspect stackup and keepouts in KiCad</text>
+  </g>
+</svg>

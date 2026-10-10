@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "SMA_Amphenol_132289_EdgeMount_EDITED") (type "KiCad") (uri "${KIPRJMOD}/SMA_Amphenol_132289_EdgeMount_EDITED.pretty") (options "") (descr ""))
+)

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1723" height="961" viewBox="0 0 1723 961">
+  <image x="0" y="0" width="1723" height="961" href="Front_MAX-M10_GPS.png" xlink:href="Front_MAX-M10_GPS.png"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#ffca58"/>
+    </marker>
+    <style>
+      .leader { fill: none; stroke: #ffca58; stroke-width: 4; marker-end: url(#arrow); }
+      .box { fill: #14202b; fill-opacity: .94; stroke: #ffca58; stroke-width: 2; }
+      .label { fill: #ffffff; font: 600 21px sans-serif; }
+      .sub { fill: #d7e2ed; font: 16px sans-serif; }
+    </style>
+  </defs>
+  <g>
+    <path class="leader" d="M426 70 L849 225"/>
+    <rect class="box" x="24" y="28" width="405" height="74" rx="10"/>
+    <text class="label" x="44" y="58">J1 · SMA RF / ANTENNA</text>
+    <text class="sub" x="44" y="83">External GNSS antenna connection</text>
+  </g>
+  <g>
+    <path class="leader" d="M431 357 L548 565"/>
+    <rect class="box" x="22" y="312" width="410" height="78" rx="10"/>
+    <text class="label" x="42" y="343">J2 · I2C + 3.3 V + GND</text>
+    <text class="sub" x="42" y="369">4-pin JST-SH host connector</text>
+  </g>
+  <g>
+    <path class="leader" d="M1233 349 L864 550"/>
+    <rect class="box" x="1230" y="303" width="465" height="78" rx="10"/>
+    <text class="label" x="1250" y="334">U1 · u-blox MAX-M10S</text>
+    <text class="sub" x="1250" y="360">Multi-GNSS receiver module</text>
+  </g>
+  <g>
+    <path class="leader" d="M1230 456 L1062 431"/>
+    <rect class="box" x="1228" y="413" width="472" height="78" rx="10"/>
+    <text class="label" x="1248" y="444">BT2 · ML414H BACKUP CELL</text>
+    <text class="sub" x="1248" y="470">Rechargeable backup battery</text>
+  </g>
+  <g>
+    <path class="leader" d="M1233 567 L1140 606"/>
+    <rect class="box" x="1230" y="524" width="465" height="78" rx="10"/>
+    <text class="label" x="1250" y="555">PPS · TIMING OUTPUT</text>
+    <text class="sub" x="1250" y="581">Board pad marked PPS</text>
+  </g>
+  <g>
+    <path class="leader" d="M1228 674 L681 718"/>
+    <rect class="box" x="1226" y="630" width="474" height="78" rx="10"/>
+    <text class="label" x="1246" y="661">JP1 · I2C PULL-UP JUMPER</text>
+    <text class="sub" x="1246" y="687">Set as marked on the PCB</text>
+  </g>
+  <g>
+    <path class="leader" d="M1228 823 L858 861"/>
+    <rect class="box" x="1226" y="779" width="474" height="78" rx="10"/>
+    <text class="label" x="1246" y="810">J3 · UART + 3.3 V + GND</text>
+    <text class="sub" x="1246" y="836">TXD, RXD · 4-pin JST-SH</text>
+  </g>
+  <g>
+    <path class="leader" d="M430 750 L774 724"/>
+    <rect class="box" x="22" y="706" width="410" height="78" rx="10"/>
+    <text class="label" x="42" y="737">H1 / H2 · MOUNTING PADS</text>
+    <text class="sub" x="42" y="763">2.2 mm plated mounting holes</text>
+  </g>
+</svg>
