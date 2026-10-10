@@ -78,6 +78,14 @@ Both connectors expose the same board supply and ground. Do not connect multiple
 - `Front_MAX-M10_GPS.png`, `Back_MAX-M10_GPS.png` — original 3D board views
 - `MAX-M10_GPS_front_annotated.png`, `MAX-M10_GPS_back_annotated.png` — labeled 3D board views
 - `MAX-M10_GPS_front_annotated.svg`, `MAX-M10_GPS_back_annotated.svg` — editable annotation overlays
+- `manufacturing/gerbers/` — Gerber (RS-274X) layers, Excellon drill files and job file
+- `manufacturing/MAX-M10_GPS_BOM.csv`, `manufacturing/MAX-M10_GPS_positions.csv` — BOM and pick-and-place data
+- `manufacturing/MAX-M10_GPS.step` — 3D STEP model
+- `manufacturing/README.md` — fabrication and assembly notes
+- `docs/MAX-M10_GPS_schematic.pdf` — schematic PDF
+- `CHANGELOG.md` — release history
+
+No license file is included: all rights are reserved by the author.
 
 ## Production readiness
 
