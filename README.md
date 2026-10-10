@@ -14,6 +14,18 @@ A KiCad hardware design for a compact GNSS receiver based on the u-blox MAX-M10S
 
 ![Annotated 3D view of the back of the MAX-M10S GNSS board](MAX-M10_GPS_back_annotated.png)
 
+### 3D renders from the STEP model
+
+Rendered from [`MAX-M10_GPS.step`](MAX-M10_GPS.step) (colored mechanical model).
+
+| Top | Isometric front |
+|-----|-----------------|
+| ![Top view](docs/renders/MAX-M10_GPS_step_top.png) | ![Isometric front](docs/renders/MAX-M10_GPS_step_iso_front.png) |
+
+| Isometric back | Bottom |
+|----------------|--------|
+| ![Isometric back](docs/renders/MAX-M10_GPS_step_iso_back.png) | ![Bottom view](docs/renders/MAX-M10_GPS_step_bottom.png) |
+
 The annotations identify board features and connectors. Connector pin numbering below follows the schematic/netlist; confirm pin 1 against the PCB silkscreen before wiring.
 
 ## Design overview
@@ -82,6 +94,8 @@ Both connectors expose the same board supply and ground. Do not connect multiple
 - `manufacturing/MAX-M10_GPS_BOM.csv`, `manufacturing/MAX-M10_GPS_positions.csv` — BOM and pick-and-place data
 - `manufacturing/MAX-M10_GPS.step` — 3D STEP model
 - `manufacturing/README.md` — fabrication and assembly notes
+- `MAX-M10_GPS.step` — colored 3D STEP model (root copy)
+- `docs/renders/` — 3D renders generated from the STEP model
 - `docs/MAX-M10_GPS_schematic.pdf` — schematic PDF
 - `CHANGELOG.md` — release history
 
