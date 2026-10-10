@@ -26,6 +26,20 @@ Rendered from [`MAX-M10_GPS.step`](MAX-M10_GPS.step) (colored mechanical model).
 |----------------|--------|
 | ![Isometric back](docs/renders/MAX-M10_GPS_step_iso_back.png) | ![Bottom view](docs/renders/MAX-M10_GPS_step_bottom.png) |
 
+### Close-ups
+
+| MAX-M10S GNSS module (U1) and RF section | Edge-mount SMA antenna connector (J1) |
+|---|---|
+| ![MAX-M10S module close-up](docs/renders/MAX-M10_GPS_step_u1.png) | ![SMA connector close-up](docs/renders/MAX-M10_GPS_step_sma.png) |
+
+| I2C header (J2), jumper (JP1) and power LED | UART header (J3) and board overview |
+|---|---|
+| ![I2C header close-up](docs/renders/MAX-M10_GPS_step_conn.png) | ![UART header and overview](docs/renders/MAX-M10_GPS_step_j3.png) |
+
+| Backup cell (BT2), PPS LED and signal resistors | Side profile (component heights) |
+|---|---|
+| ![Backup cell close-up](docs/renders/MAX-M10_GPS_step_bt.png) | ![Side profile](docs/renders/MAX-M10_GPS_step_side.png) |
+
 The annotations identify board features and connectors. Connector pin numbering below follows the schematic/netlist; confirm pin 1 against the PCB silkscreen before wiring.
 
 ## Design overview
